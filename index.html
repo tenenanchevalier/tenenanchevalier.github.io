@@ -105,6 +105,31 @@
             font-style: italic;
             color: #555;
         }
+        
+        /* Style pour la grille de compétences */
+        .competence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .competence-link {
+            display: block;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            text-align: center;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .competence-link:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
 
         footer {
             text-align: center;
@@ -124,9 +149,10 @@
 
     <nav>
         <ul>
-            <li><a href="#professionnalisation">Parcours de Professionalisation</a></li>
-            <li><a href="#experience">Expériences Professionnelles</a></li>
-            <li><a href="#activites">Activités Extra-Professionnelles</a></li>
+            <li><a href="#professionnalisation">Parcours</a></li>
+            <li><a href="#competences">Compétences B1</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#activites">Activités</a></li>
         </ul>
     </nav>
 
@@ -140,11 +166,21 @@
             
             <h3>Synthèse du Projet</h3>
             <p>
-                Passionné par l'informatique, j'entame une carrière technique pour les années 2024-2026 en tant que Technicien Réseau et Télécom en alternance à la Mairie de Lille. Mes expériences précédentes dans des rôles polyvalents ont forgé ma méthode, ma polyvalence, des atouts majeurs pour la réussite de mon alternance dans les infrastructures réseau.
+                Passionné par l'informatique, j'entame une carrière technique pour les années 2024-2026 en tant que Technicien Réseau et Télécom en alternance à la Mairie de Lille. Mes expériences précédentes dans des rôles polyvalents ont forgé ma méthode, ma polyvalence qui sont des atouts majeurs pour la réussite de mon alternance dans les infrastructures réseau.
             </p>
             
-            <h3>URL de votre portfolio à rendre</h3>
-            <p>Le portfolio est accessible à l'adresse : <code>https://tenenanchevalier.github.io</code></p>
+        </section>
+        
+        <section id="competences">
+            <h2>🛠️ Compétences Clés (Référentiel B1)</h2>
+            <p>Cliquez sur chaque compétence pour voir la démonstration détaillée des acquis et des mises en œuvre basées sur mes connaissances et mon expérience.</p>
+            
+            <div class="competence-grid">
+                <a href="competence-b1-1-5.html" class="competence-link">Gérer des sauvegardes (B1.1.5)</a>
+                <a href="competence-b1-5.html" class="competence-link">Mettre à disposition un service informatique (B1.5)</a>
+                <a href="competence-b1-4.html" class="competence-link">Travailler en mode projet (B1.4)</a>
+                <a href="competence-b1-6-2.html" class="competence-link">Veille technologique (B1.6.2)</a>
+            </div>
         </section>
 
         <section id="experience">
@@ -153,18 +189,15 @@
             <div class="experience-card">
                 <h3>Technicien Réseau et Télécom (Alternance)</h3>
                 <p class="details">Mairie de Lille | 2024 – 2026</p>
-                <p>
-                    Démarrage d'une alternance pour mettre en pratique et développer mes connaissances en infrastructure réseau et télécommunications. Ce poste est une étape clé pour concrétiser mon profil professionnel et appliquer mes compétences théoriques et ma rigueur dans un environnement technique complexe.
-                </p>
+                <p>Démarrage d'une alternance pour mettre en pratique et développer mes connaissances en infrastructure réseau et télécommunications. Ce poste est une étape clé pour concrétiser mon profil professionnel et appliquer mes compétences théoriques et ma rigueur dans un environnement technique complexe.</p>
             </div>
 
             <div class="experience-card">
                 <h3>Employé Commercial</h3>
                 <p class="details">Carrefour, Lille | Janvier 2023 – Actuel</p>
                 <ul>
-                    <li>Gestion des stocks et inventaires : Réalisation d'inventaires réguliers pour assurer la bonne tenue du magasin, garantissant ainsi la fiabilité des données.</li>
-                    <li>Rigueur et Organisation : Maintien de l'attractivité des rayons en respectant l'implantation, la qualité, la rotation des produits et la gestion des stocks.</li>
-                    <li>Logistique : Transport, rangement, conditionnement et étiquetage des produits en rayon.</li>
+                    <li>**Gestion des stocks et inventaires :** Réalisation d'inventaires réguliers pour assurer la bonne tenue du magasin, garantissant ainsi la fiabilité des données.</li>
+                    <li>**Rigueur et Organisation :** Maintien de l'attractivité des rayons en respectant l'implantation, la qualité, la rotation des produits et la gestion des stocks.</li>
                 </ul>
             </div>
 
@@ -172,8 +205,8 @@
                 <h3>Employé Polyvalent (Cuisinier, Serveur)</h3>
                 <p class="details">Pitaya, Lille | Septembre 2022</p>
                 <ul>
-                    <li>Polyvalence et Réactivité : Polyvalence sur différents postes (caisse, cuisine, salle), selon les besoins opérationnels du service.</li>
-                    <li>Communication : Collaboration étroite avec la salle pour assurer une bonne communication entre cuisine et service.</li>
+                    <li>**Polyvalence et Réactivité :** Polyvalence sur différents postes (caisse, cuisine, salle), selon les besoins opérationnels du service.</li>
+                    <li>**Communication :** Collaboration étroite avec la salle pour assurer une bonne communication entre cuisine et service.</li>
                 </ul>
             </div>
             
@@ -181,8 +214,7 @@
                 <h3>Hôte de Caisse</h3>
                 <p class="details">IKEA, Lommes | Juillet 2021 – Août 2021</p>
                 <ul>
-                    <li>Résolution de Problèmes ; Étroite collaboration avec le chef de caisse pour résoudre les problèmes et gérer les réclamations clients.</li>
-                    <li>Service Client : Communication claire avec les clients pour répondre à leurs questions ou résoudre rapidement les problèmes.</li>
+                    <li>**Résolution de Problèmes :** Étroite collaboration avec le chef de caisse pour résoudre les problèmes et gérer les réclamations clients.</li>
                 </ul>
             </div>
 
@@ -194,7 +226,7 @@
                 Ces activités témoignent de ma capacité à travailler en collectif et à gérer des projets créatifs en parallèle de mon parcours professionnel :
             </p>
             <ul>
-                <li>DJ / Collectif Musical AKR : Je suis DJ et membre actif du collectif musical "AKR", basé à Lille. Cette activité a développé mes compétences en organisation, en communication et en gestion de projet au sein d'une association culturelle.</li>
+                <li>DJ / Collectif Musical AKR : Je suis DJ et membre actif du collectif musical AKR, basé à Lille. Cette activité a développé mes compétences en organisation, en communication et en gestion de projet au sein d'une association culturelle.</li>
             </ul>
         </section>
 
