@@ -40,20 +40,20 @@
         <h2>Démonstration de la compétence</h2>
         
         <p>
-            [cite_start]Cette compétence est la jonction entre mes connaissances techniques de base (installation et configuration).
+                   Cette compétence est la jonction entre mes connaissances techniques de base (installation et configuration).
         </p>
         
         <h3>Mise en œuvre et Acquis :</h3>
         <ul class="details">
-            [cite_start]<li>Préparation du service : Maîtrise des étapes de configuration du BIOS et d'installation du système d'exploitation pour préparer l'environnement serveur.</li>
-            [cite_start]<li>Architecture : Connaissance du rôle d'un serveur et des principes de la virtualisation pour optimiser le déploiement des services.</li>
-            [cite_start]<li>Support Utilisateur : Expérience dans la résolution de problèmes simples et la gestion des réclamations clients, essentielle pour le support de premier niveau et l'accompagnement des utilisateurs après le déploiement d'un service[cite: 42].</li>
-            [cite_start]<li>Documentation : Capacité à produire une communication claire avec les clients, transposée dans la rédaction de documentation utilisateur simple et efficace.</li>
+                        <li>Préparation du service : Maîtrise des étapes de configuration du BIOS et d'installation du système d'exploitation pour préparer l'environnement serveur.</li>
+                        <li>Architecture : Connaissance du rôle d'un serveur et des principes de la virtualisation pour optimiser le déploiement des services.</li>
+                        <li>Support Utilisateur : Expérience dans la résolution de problèmes simples et la gestion des réclamations clients, essentielle pour le support de premier niveau et l'accompagnement des utilisateurs après le déploiement d'un service.</li>
+                        <li>Documentation : Capacité à produire une communication claire avec les clients, transposée dans la rédaction de documentation utilisateur simple et efficace.</li>
         </ul>
         
         <h3>Exemple de Projets ou d'Application :</h3>
         <p>
-            [cite_start]J'ai les bases pour simuler le déploiement d'un service sur une machine virtuelle (installation d'un OS Linux de base, configuration réseau de base) et sa mise à disposition en s'assurant que les utilisateurs comprennent l'outil grâce à une documentation initiale.
+                  J'ai les bases pour simuler le déploiement d'un service sur une machine virtuelle (installation d'un OS Linux de base, configuration réseau de base) et sa mise à disposition en s'assurant que les utilisateurs comprennent l'outil grâce à une documentation initiale.
         </p>
     </div>
 
